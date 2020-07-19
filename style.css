@@ -90,6 +90,7 @@ body {
   width: 200px;
   height: 33%;
   margin: 0 auto 5vh auto;
+  margin-bottom:30px !important;
 }
 
 .meter-pointer {

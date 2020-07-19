@@ -18,7 +18,7 @@ body {
   margin: auto;
   width: 200px;
   position: absolute;
-  top: 30%;
+  top: 50%;
   left: 0;
   right: 0;
   text-align: center;
@@ -87,7 +87,7 @@ body {
   left: 0;
   right: 0;
   bottom: 50%;
-  width: 400px;
+  width: 200px;
   height: 33%;
   margin: 0 auto 5vh auto;
 }

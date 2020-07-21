@@ -1,0 +1,131 @@
+* {
+	font-family: 'Passion One', cursive;
+	color: #2A0D45;
+	text-shadow: 1px -2px 2px rgba(150, 150, 150, 1);
+}
+
+body {
+	background-color: #BBD5ED;
+}
+
+h1 {
+	font-size: 5em;
+	font-weight: 700;
+	text-align: center;
+}
+
+h2 {
+	font-weight: 700;
+	font-size: 1.4em;
+	margin: 0;
+}
+
+h3 {
+	font-style: italic;
+	font-size: 1.4em;
+	margin-top: 5px;
+}
+
+.inputs {
+	display: flex;
+	justify-content: space-between;
+}
+
+.form-control {
+	color: inherit;
+	font-size: 1em;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+    background-color: #9299f0;
+    border-radius: 5px;
+    padding: 0 10px;
+    background-image: url(../media/drop-down-arrow.png);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: 20% 100%;
+}
+
+label {
+	font-size: 1.5em;
+}
+
+.placeholder {
+	height: 200vh;
+}
+
+table {
+	background-color: #9299F0;
+}
+
+img {
+	width: 150px;
+}
+
+.chartNumber {
+	width: 10%;
+	font-size: 3em;
+	text-align: center;
+	letter-spacing: 5px;
+}
+
+.chartText {
+	padding-left: 10px;
+}
+
+h4 {
+	font-size: 2em;
+}
+
+@media screen and (min-width: 768px) {
+
+	.dropDown {
+		font-size: 19px;
+	}
+
+	label {
+		font-size: 1.3em;
+	}
+
+	img {
+		width: 170px;
+	}
+
+	h1 {
+		margin-bottom: 50px;
+	}
+
+	h2 {
+		font-size: 2.3em;
+	}
+
+	h3 {
+		font-size: 2.1em;
+	}
+
+	.inputs {
+		margin-bottom: 25px;
+	}
+
+	.chartNumber {
+		font-size: 5em;
+	}
+
+	.chartText {
+		padding-left: 45px;
+	}
+
+}
+
+@media screen and (min-width: 992px) {
+	
+	body {
+		background-image: url('../media/concert3.jpeg');
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	h2, h3 {
+		margin: 20px;
+	}
+
+}

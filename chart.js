@@ -43,10 +43,10 @@ function buildURL() {
 	var selectGenre = document.getElementById('genre').value;
 	var url;
 	if (selectGenre === 'all') {
-		url = 'https://itunes.apple.com/gb/rss/' + selectChartType + '/limit=50/explicit=true/xml';
+		url = 'https://itunes.apple.com/id/rss/' + selectChartType + '/limit=50/explicit=true/xml';
 	}
 	else {
-		url = 'https://itunes.apple.com/gb/rss/' + selectChartType + '/limit=50/genre=' + selectGenre + '/explicit=true/xml';
+		url = 'https://itunes.apple.com/id/rss/' + selectChartType + '/limit=50/genre=' + selectGenre + '/explicit=true/xml';
 	}
 	return url;
 }

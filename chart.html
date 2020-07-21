@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>UK iTunes Charts</title>
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Passion+One:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="chartstyles.css">
+</head>
+<body>
+
+<div class="container">
+
+	<h1>iTunes UK Music Charts</h1>
+	
+
+	<div class="inputs">
+		<div class="form-group dropDown sel1">
+		  <label for="sel1">Select chart type:</label>
+		  <select class="form-control" id="sel1" onchange="retrieveData()">
+		  	<option value="topsongs">Top Songs</option>
+		    <option value="topalbums">Top Albums</option>
+		  </select>
+		</div>
+
+		<div class="form-group dropDown genre">
+		  <label for="genre">Genre:</label>
+		  <select class="form-control" id="genre" onchange="retrieveData()">
+		  <option value="all">All</option>
+		  </select>
+		</div>
+	</div>
+	
+
+	<div class="placeholder">
+		<table id="chartTable" class="col-md-12 table-bordered">
+		</table>
+	</div>
+	
+	<footer>
+		<!--<h4>Designed By <a href="http://www.kurtcorbett.co.uk">Kurt Corbett</a></h4>-->
+	</footer>
+		
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/chart.js"></script>
+</body>
+</html>

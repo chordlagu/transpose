@@ -2,7 +2,7 @@ var cacheName = 'hello-pwa';
 var filesToCache = [
 '/',    
 '/index.html',
-'https://1.bp.blogspot.com/-OzWSvdMBej8/XxSa5nQN7_I/AAAAAAAAEgw/LLqI8Qhavc0FrTVaWHpdMtICSdCOax7OACPcBGAYYCw/s1600/CHORDLAGU_ID%2B%25281%2529%2B%25281%2529.png',
+'/logo.png',
 '/meter.js',
 '/notes.js',
 '/tuner.js',

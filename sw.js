@@ -7,10 +7,10 @@ var filesToCache = [
 '/notes.js',
 '/tuner.js',
 '/app.js',
+'/manifest.json',
 '/frequency-bars.js',
 '/aubio.js',
 '/aubio.wasm',
-'/index.html',
 '/style.css',  
 '/main.js'  ];  
 self.addEventListener('install', function(e) { 

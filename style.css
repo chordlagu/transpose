@@ -1,8 +1,8 @@
-htmxl {
+html {
   height: 100%;
 }
 
-bosdy {
+body {
   position: fixed;
   font-family: sans-serif;
   color: #2c3e50;

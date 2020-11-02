@@ -14,17 +14,22 @@ body {
   -moz-user-select: none;
 }
 
+
+
 .notes {
   margin: auto;
-  width: 200px;
-  position: absolute;
-  top: 50%;
-  left: 0;
-  right: 0;
-  text-align: center;
-  margin-bottom:20px;
-}
+  width: 400px;
+ position: relative;
 
+  text-align: center;
+}
+.meter {
+  position: relative;
+  
+  width: 400px;
+  height: 23%;
+  margin: 70px auto 50px auto;
+}
 .note {
   font-size: 50px;
   font-weight: bold;
@@ -35,7 +40,7 @@ body {
 }
 
 .note.active {
-  color: #e74c3c;
+  color: #ff0000;
 }
 
 .notes-list {
@@ -75,7 +80,7 @@ body {
 }
 
 .frequency {
-  font-size: 32px;
+  font-size: 18px;
 }
 
 .frequency span {
@@ -83,16 +88,7 @@ body {
   margin-left: 0.25em;
 }
 
-.meter {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 50%;
-  width: 200px;
-  height: 33%;
-  margin: 0 auto 5vh auto;
-  margin-bottom:30px;
-}
+
 
 .meter-pointer {
   width: 2px;
